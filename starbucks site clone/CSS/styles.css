@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  width: 100%;
+  flex-direction: row
+}
+
+header img {
+  width: 90px;
+  height: 50px;
+  margin: 20px;
+  /* float:left; */
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-left {
+  display: flex;
+  flex-shrink: none;
+  width: 100%;
+  list-style: none;
+  align-items: flex-start;
+  font-weight: bold;
+}
+
+.nav-right {
+  display: flex;
+  flex-shrink: none;
+  width: 100%;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.menu {
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.rewards {
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.giftcards {
+  margin-top: 10px;
+}
+
+.menu:hover {
+  color: #006241;
+}
+
+.rewards:hover {
+  color: #006241;
+}
+
+.giftcards:hover {
+  color: #006241;
+}
+
+.find {
+  font-size: 20px;
+  margin-right: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.find:hover {
+  color: #006241;
+}
+
+header nav-right .signin {
+  background-color: #fff;
+  border-color: black;
+  margin: 0 10px;
+}
+
+.hr1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.joinstarbucks {
+  height: 200px;
+}
+
+.joinstarbucks img {
+  height: 200px;
+}
+
+.join-img {
+  float: left;
+  width: 50%;
+}
+
+.join-text {
+  float: right;
+  text-align: center;
+  background-color: #1e3932;
+  color: #fff;
+  height: 200px;
+  width: 50%;
+}
+
+.join-text p {
+  margin-top: 40px;
+  margin-bottom: 65px;
+  font-size: 30px;
+}
+
+.join-text a {
+  color: #fff;
+}
+
+.btn {
+  background: #1e3932;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #707070;
+  text-decoration: none;
+}
+
+.nav-right .btn-signin {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+}
+
+.nav-right .btn-signin:hover {
+  background: #eee;
+}
+
+.planet .planet-text .btn-learnhow {
+  color: #1e3932;
+  background-color: #d4e9e2;
+  border-color: #1e3932;
+}
+
+.planet .planet-text .btn-learnhow:hover {
+  background: #eee;
+}
+
+.btn-earning {
+  color: #1e3932;
+  background-color: #d4e9e2;
+  border-color: #1e3932;
+}
+
+.btn-earning:hover {
+  background: #eee;
+}
+
+.planet {
+  height: 600px;
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.planet-img img {
+  width: 100%;
+  height: 600px;
+}
+
+.planet-img {
+  width: 50%;
+}
+
+.planet-text {
+  width: 50%;
+  background-color: #d4e9e2;
+  text-align: center;
+  color: #1e3932;
+}
+
+.planet h2 {
+  margin: 100px 10px 30px 10px;
+  font-size: 65px;
+}
+
+.planet p {
+  margin: 20px 10px 50px 10px;
+  font-size: 25px;
+  text-wrap: wrap;
+}
+
+.drinks {
+  width: 100%;
+  display: flex;
+  margin-top: 2.5%;
+  margin-bottom: 0;
+}
+
+.coffee {
+  width: 50%;
+  margin-right: 1.5%;
+}
+
+.shake {
+  width: 50%;
+  margin-left: 1.5%;
+}
+
+.drinks img {
+  width: 100%;
+  height: 100%;
+}
+
+.drinks-des {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  height: 300px;
+  margin-top: 0;
+}
+
+.awakening {
+  width: 50%;
+  background-color: #1e3932;
+  margin-right: 1.5%;
+}
+
+.chill {
+  width: 50%;
+  background-color: #1e3932;
+  margin-left: 1.5%;
+}
+
+.drinks-des h2 {
+  margin: 10px 10px 30px 10px;
+  font-size: 65px;
+  line-height: 60px;
+  color: #fff;
+}
+
+.drinks-des p {
+  margin: 25px 10px 50px 10px;
+  font-size: 20px;
+  text-wrap: wrap;
+  color: #fff;
+}
+
+.veg {
+  width: 100%;
+  display: flex;
+  margin-top: 2.5%;
+}
+
+.veg-img {
+  width: 50%;
+}
+
+.veg img {
+  width: 100%;
+  height: 100%;
+}
+
+.veg-text {
+  width: 50%;
+  color: White;
+  background-color: #1e3932;
+  text-align: center;
+}
+
+.veg h4 {
+  margin: 100px 10px 40px 10px;
+  font-size: 25px;
+}
+
+.veg p {
+  margin: 20px 10px 55px;
+  font-size: 20px;
+}
+
+.veg a {
+  margin-top: 20px;
+}
+
+.earning {
+  display: flex;
+  width: 100%;
+}
+
+.earning-text {
+  color: #1e3932;
+  background-color: #d4e9e2;
+  text-align: center;
+  width: 50%;
+}
+
+.earning img {
+  width: 100%;
+  height: 100%;
+}
+
+.earning-img {
+  width: 50%;
+}
+
+.earning h4 {
+  font-size: 25px;
+  margin: 30px 30px;
+}
+
+.earning p {
+  font-size: 20px;
+  margin: 30px 60px 40px;
+  line-height: 30px;
+}
+
+.earning a {
+  margin-top: 50px;
+}
+
+.restrictions {
+  height: 100px;
+}
+
+.restrictions p {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 18px;
+}
+
+.rewardslink {
+  text-decoration: underline;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  margin-top: 20px;
+  height: 200px;
+}
+
+.about h4 {
+  font-size: 20px;
+}
+
+.about a {
+  text-align: left;
+  text-wrap: wrap;
+  font-size: 15px;
+  color: rgba(0, 0, 0, .58);
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.about-us {
+  margin-left: 50px;
+  height: 100%;
+}
+
+.careers {
+  margin-left: 50px;
+  height: 100%;
+}
+
+.social-impact {
+  margin-left: 50px;
+  height: 100%;
+}
+
+.social-impact .planet {
+  height: 0px;
+}
+
+.business-partners {
+  margin-left: 50px;
+  height: 100%;
+}
+
+.ordernpickup {
+  margin-left: 50px;
+  height: 100%;
+}
+
+.about a:hover {
+  color: black;
+}
+
+.policy {
+  list-style: none;
+  list-style-type: none;
+}
+
+.policy li {
+  display: inline-block;
+  margin: 20px 20px;
+  text-decoration: none;
+}
+
+.policy li:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: rgba(0, 0, 0, .58);
+  margin-left: 15px;
+}
